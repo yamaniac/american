@@ -1,0 +1,826 @@
+@font-face {
+  font-family: 'MuseoSans';
+  font-style: normal;
+  src: url('../fonts/MuseoSans.otf') format('otf');
+  src: url('../fonts/MuseoSans.eot') format('eot');
+  src: url('../fonts/MuseoSans.woff') format('woff');
+}
+@font-face {
+  font-family: 'MuseoSans-100';
+  font-style: normal;
+  src: url('../fonts/MuseoSans-100.otf') format('otf');
+  src: url('../fonts/MuseoSans-100.eot') format('eot');
+  src: url('../fonts/MuseoSans-100.woff') format('woff');
+  src: url('../fonts/MuseoSans-100.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'MuseoSans-100Italic';
+  font-style: normal;
+  src: url('../fonts/MuseoSans-100Italic.otf') format('otf');
+  src: url('../fonts/MuseoSans-100Italic.eot') format('eot');
+  src: url('../fonts/MuseoSans-100Italic.woff') format('woff');
+  src: url('../fonts/MuseoSans-100Italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'MuseoSans-300';
+  font-style: normal;
+  src: url('../fonts/MuseoSans-300.otf') format('otf');
+  src: url('../fonts/MuseoSans-300.eot') format('eot');
+  src: url('../fonts/MuseoSans-300.woff') format('woff');
+  src: url('../fonts/MuseoSans-300.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'impact';
+  font-style: normal;
+  src: url('../fonts/impact.eot') format('eot');
+  src: url('../fonts/impact.otf') format('otf');
+  src: url('../fonts/impact.woff') format('woff');
+  src: url('../fonts/impact.woff2') format('woff2');
+  
+}
+.os-animation{
+  opacity: 0;
+}
+
+.os-animation.animated{
+    opacity: 1;
+}
+.page-header {
+    border-bottom: 1px solid #eee;
+    color: #333333;
+    font-family: MuseoSans;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 20px 0;
+    padding-bottom: 9px;
+    text-transform: capitalize;
+}
+.numbers {
+    font-family: museosans;
+    font-size: 18px;
+    font-weight: 100;
+}
+.email{
+    font-family: museosans;
+    font-size: 18px;
+    font-weight: 100;
+}
+.content-section.text-center {
+    margin-bottom: 50px;
+}
+.navbar-nav > li {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a.page-scroll {
+    font-family: MuseoSans;
+}
+
+.contact_no ,.email_address{
+    color: #333333;
+     margin-top: 15px;
+     margin-bottom: 15px;
+}
+.btn.btn-lg.btn-warning.text-center {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.contact_no span,.email_address span{
+    color: #b2bec4;
+    font-size: 12px;
+}
+.contact_no i,.email_address i{
+    background: #0f6eb4;
+    padding: 10px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 10px;
+    float: left;
+}
+.heading {
+    margin: 40px 0;
+    text-align: center;
+}
+.heading h1 {
+    font-family: impact;
+    font-size: 50px;
+    text-shadow: 2px 2px 6px #434343;
+}
+.heading p {
+    font-family: MuseoSans-100;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.btn-warning {
+    background-color: #F26620;
+    border-color: #eea236;
+    color: #fff;
+}
+.btn-group-lg > .btn, .btn-lg {
+    font-size: 18px;
+    line-height: 1.33333;
+    font-family: MuseoSans;
+    font-weight: normal;
+    padding: 15px 25px;
+}
+
+
+
+/*Section first header css style*/
+.card .card-heading {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.card .card-heading.simple {
+    font-size: 20px;
+    font-weight: 300;
+    color: #777;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.card .card-heading.image img {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-right: 15px;
+    vertical-align: top;
+    border: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.card .card-heading.image .card-heading-header {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card .card-heading.image .card-heading-header h3 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.card .card-heading.image .card-heading-header span {
+    font-size: 12px;
+    color: #999999;
+}
+
+.card .card-body {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.card .card-media {
+    padding: 0 20px;
+    margin: 0 -14px;
+}
+
+.card .card-media img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card .card-actions {
+    min-height: 30px;
+    padding: 0 20px 20px 20px;
+    margin: 20px 0 0 0;
+}
+
+.card .card-comments {
+    padding: 20px;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.card .card-comments .comments-collapse-toggle {
+    padding: 0;
+    margin: 0 20px 12px 20px;
+}
+
+.card .card-comments .comments-collapse-toggle a,
+.card .card-comments .comments-collapse-toggle span {
+    padding-right: 5px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-comments .media-heading {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card.people {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    height: 300px;
+    padding-top: 0;
+    margin-left: 20px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.card.people:first-child {
+    margin-left: 0;
+}
+
+.card.people .card-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 170px;
+    height: 150px;
+    background-color: #ffffff;
+}
+
+.card.people .card-top.green {
+    background-color: #53a93f;
+}
+
+.card.people .card-top.blue {
+    background-color: #427fed;
+}
+
+.card.people .card-info {
+    position: absolute;
+    top: 150px;
+    display: inline-block;
+    width: 100%;
+    height: 101px;
+    overflow: hidden;
+    background: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.people .card-info .title {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #404040;
+}
+
+.card.people .card-info .desc {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 16px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.people .card-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    line-height: 29px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.card.hovercard {
+    background-color: #ffffff;
+    border-top: 5px solid #0085c8;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    overflow: hidden;
+    padding-top: 0;
+    text-align: center;
+    width: 100%;
+}
+#payment-form input {
+    background: #ffffff none repeat scroll 0 0;
+}
+#payment-form select{
+    background: #ffffff none repeat scroll 0 0;
+}
+#payment-form textarea{
+    background: #ffffff none repeat scroll 0 0;
+}
+.card.hovercard .cardheader {
+    height: 60px;
+}
+
+.avatar img{
+    margin: 0 auto;
+  
+}
+.card.hovercard .info {
+    padding: 20px;
+}
+.card.hovercard .info .title {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    vertical-align: middle;
+}
+.title > a{
+    font-weight: 700;
+    font-size: 10pt;
+    color: #403f3f!important;
+}
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+.arrow_readmore {
+    background: #F04D15 none repeat scroll 0 0;
+    color: #ffffff;
+    float: left;
+    margin-left: 6px;
+    margin-top: 60px;
+    padding: 5px 11px;
+}
+/*Section first header css style*/
+
+/*services section css*/
+
+.our_services h3 {
+    color: #000000;
+    float: left;
+    font-family: museosans;
+    font-size: 14pt;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 0;
+}
+.form_header h3 {
+    color: #000000;
+    float: left;
+    font-family: museosans;
+    font-size: 18px;
+    margin: 0;
+    text-align: inherit;
+    text-transform: capitalize;
+}
+.divider {
+    background: #F2F2F2 none repeat scroll 0 0;
+    padding: 12px;
+}
+.box {
+    background: #f2f2f2 none repeat scroll 0 0;
+    margin: 30px 0 0;
+    padding: 10px;
+    font-family: museosans;
+    text-align: left;
+    display: inline-block;
+}
+.box h3{
+    color: #403f3f;
+    font-size: 14pt;
+    margin-bottom: 10px;
+    font-family: museosans;
+    text-transform: capitalize;
+}
+.box p {
+    color: #403f3f;
+    font-size: 10pt;
+    padding: 10px 10px 0 0;
+}
+.box.padding {
+    padding: 26px;
+}
+.circle_icons {
+    background: #0085C8 none repeat scroll 0 0;
+    border-radius: 50%;
+    float: right;
+    height: 100px;
+    margin: 30px 0;
+    width: 100px;
+}
+.circle_icons img {
+    margin: 25px 18px;
+}
+.login-button {
+    background: #ffffff none repeat scroll 0 0;
+    border: 5px solid #efefef;
+    color: #999999;
+    margin-top: 50px;
+    padding: 7px 18px;
+    position: absolute;
+    transition: all 500ms ease-in-out 0s;
+}
+.quick_quote{
+    background:url("../img/form_background.png") no-repeat ;
+    width: 100%;
+    height: 605px;
+    background-size: cover;
+    margin-top: 25px;
+}
+.testimonial_section{
+    background:url("../img/testimonial_bg.png") no-repeat ;
+    width: 100%;
+    height: 457px;
+    background-size: cover;
+}
+.tab-content {
+    background: #282e3d none repeat scroll 0 0;
+    padding: 20px;
+}
+label {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-top: 0px!important;
+}
+.heading_testimonial {
+    border-bottom: 2px solid #ffffff;
+    font-family: museosans-100;
+    font-size: 44px;
+    font-weight: 100;
+    margin: 29px auto 28px;
+    padding: 10px 0;
+    text-align: center;
+    width: 50%;
+}
+label.control-label span { cursor: pointer; }
+blockquote .small, blockquote footer, blockquote small{
+    color: #ffffff;
+}
+
+/*Testimonail section*/
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+/* Content */
+
+/* Testimonials */
+.testimonials blockquote {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border: medium none;
+    color: #666;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px;
+    position: relative;
+}
+.testimonials blockquote::before {
+    width: 0; 
+    height: 0;
+	right: 0;
+	bottom: 0;
+	content: " "; 
+	display: block; 
+	position: absolute;
+    border-bottom: 20px solid #fff;    
+	border-right: 0 solid transparent;
+	border-left: 15px solid transparent;
+	border-left-style: inset; /*FF fixes*/
+	border-bottom-style: inset; /*FF fixes*/
+}
+.testimonials blockquote::after {
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: #e63f0c transparent transparent transparent;
+}
+.testimonials .carousel-info img {
+    border: 1px solid #dcdcdc;
+    border-radius: 150px !important;
+    height: 75px;
+    padding: 4px;
+    width: 75px;
+}
+.testimonials .carousel-info {
+    overflow: hidden;
+}
+.testimonials .carousel-info img {
+    margin-right: 15px;
+}
+.testimonials .carousel-info span {
+    display: block;
+}
+.testimonials span.testimonials-name {
+    color: #e6400c;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 5px 0 0;
+    font-family: museosans;
+}
+.testimonials span.testimonials-post {
+    color: #656565;
+    font-size: 12px;
+}
+.testimonials p {
+    font-family: museosans;
+    font-size: 16px;
+    font-weight: 100;
+}
+.testimonials_heading{
+    color: #000000;
+     margin-top: 10px;
+}
+.btn_divider {
+    background: #f2f2f2 none repeat scroll 0 0;
+    height: 20px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+.testimonials {
+    margin-bottom: 35px;
+}
+.testimonials_heading h3 {
+    font-family: museosans-100;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: left;
+    text-transform: capitalize;
+}
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 40px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #ffffff;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    background-color: #000000;
+}
+.img-circle {
+    height: 100px !important;
+    width: 100px !important;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+/*Footer Section*/
+
+.our_branches h2{
+     font-family: museosans-100;
+     font-size: 36px;
+     margin-top: 30px;
+     text-transform: capitalize;
+     border-bottom: 1px solid #ffffff;
+     padding-bottom: 10px;
+}
+.our_branches p{
+     font-family: museosans-100;
+     font-size: 20px;
+}
+.footer{
+    background: #000000;
+    
+}
+.corporate_address{
+    background: #3680bd;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto 50px;
+}
+.corporate_address h3{
+    font-family: museosans-100;
+    font-size: 36px;
+    border-bottom: 1px solid #ffffff;
+    font-weight: 100;
+    padding: 12px;
+    text-transform: capitalize;
+}
+.corporate_address p{
+    font-size: 21px;
+    font-family: museosans-100;
+    padding: 0px 10px;
+}
+.cityName h4 {
+    border-bottom: 1px solid #ffffff;
+    font-family: museosans-100;
+    font-size: 18px;
+    margin-bottom: 11px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+address {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px;
+    margin-bottom: 35px;
+    padding-left: 5px;
+    padding-right: 12px;
+    text-align: left;
+    word-wrap: break-word;
+    font-family: museosans-300;
+}
+.footerBack{
+    background:#283A4B ;
+    padding: 20px;
+    font-family: museosans-100;
+}
+.copyright.pull-left {
+    margin-top: 18px;
+}
+.footer_logo{
+    background:url("../img/footer_logo.png") no-repeat ;
+    width: 176px;
+    height: 52px;
+}
+.contact_details{
+    color: #333333;
+}
+.contact_details h3 {
+    border-bottom: 1px solid #333333;
+    font-family: museosans;
+    font-size: 24px;
+    padding-bottom: 9px;
+}
+.contact_details p{
+    font-size: 16px;
+    font-family: museosans;
+    margin: 0 0 15px;
+}
+.contact_details a{
+    color:#283A4B;
+}
+.form_section {
+    color: #333333;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.form-control{
+    background: #aeaeae;
+    border: 1px solid #e7e7e7;
+}
+.form_section h3 {
+    color: #ffffff;
+    font-family: museosans-100;
+    font-size: 40px;
+    font-weight: 100;
+    margin: 0 0 15px;
+    padding-bottom: 0;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 3px #737373;
+}
+.form-control::-moz-placeholder {
+    color: #ffffff;
+    opacity: 1;
+    text-shadow: 2px 2px 3px #737373;
+}
+.form_section > p {
+    font-size: 18px;
+    font-family: museosans;
+     color: #ffffff;
+     text-shadow: 2px 2px 3px #737373;
+    
+}
+.form_section label{
+    color:#283A4B ;
+}
+.breadcrumb {
+    background-color: #60676d;
+    border-radius: 0;
+    list-style: outside none none;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+}
+.breadcrumb a {
+    color: #ffffff;
+}
+.breadcrumb > .active {
+    color: #337AB7;
+}
+.primary{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#contact {
+    background-color: #BEBEBE;
+    background-image: url("../img/map-image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+/*Responsive css*/
+@media(max-width:786px) {
+    .btn-group-lg > .btn, .btn-lg {
+    font-family: MuseoSans;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.33333;
+    margin-top: 20px;
+    padding: 9px 18px;
+}
+.heading p {
+    font-family: MuseoSans-100;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.item p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.corporate_address{
+    width: 100%;
+}
+.corporate_address h3{
+    font-size: 30px;
+    margin: 0 0 16px;
+}
+.corporate_address p {
+    font-size: 20px;
+}
+.copyright.pull-left {
+    margin-top: 0px;
+    text-align: center;
+}
+.circle_icons{
+    display: none;
+}
+.divider {
+    float: left;
+    width: 100%;
+}
+.footerBack {
+    margin: 0;
+    padding: 50px 0;
+}
+.footer_logo{
+    margin-top: 17px;
+    width: 232px;
+}
+.logo-american {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+}
