@@ -1,43 +1,11 @@
-@font-face {
-  font-family: 'MuseoSans';
-  font-style: normal;
-  src: url('../fonts/MuseoSans.otf') format('otf');
-  src: url('../fonts/MuseoSans.eot') format('eot');
-  src: url('../fonts/MuseoSans.woff') format('woff');
+body{
+    font-family:arial;
 }
-@font-face {
-  font-family: 'MuseoSans-100';
-  font-style: normal;
-  src: url('../fonts/MuseoSans-100.otf') format('otf');
-  src: url('../fonts/MuseoSans-100.eot') format('eot');
-  src: url('../fonts/MuseoSans-100.woff') format('woff');
-  src: url('../fonts/MuseoSans-100.woff2') format('woff2');
+
+td, th {
+    color:#000000!important;
 }
-@font-face {
-  font-family: 'MuseoSans-100Italic';
-  font-style: normal;
-  src: url('../fonts/MuseoSans-100Italic.otf') format('otf');
-  src: url('../fonts/MuseoSans-100Italic.eot') format('eot');
-  src: url('../fonts/MuseoSans-100Italic.woff') format('woff');
-  src: url('../fonts/MuseoSans-100Italic.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'MuseoSans-300';
-  font-style: normal;
-  src: url('../fonts/MuseoSans-300.otf') format('otf');
-  src: url('../fonts/MuseoSans-300.eot') format('eot');
-  src: url('../fonts/MuseoSans-300.woff') format('woff');
-  src: url('../fonts/MuseoSans-300.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'impact';
-  font-style: normal;
-  src: url('../fonts/impact.eot') format('eot');
-  src: url('../fonts/impact.otf') format('otf');
-  src: url('../fonts/impact.woff') format('woff');
-  src: url('../fonts/impact.woff2') format('woff2');
-  
-}
+
 .os-animation{
   opacity: 0;
 }
@@ -48,7 +16,7 @@
 .page-header {
     border-bottom: 1px solid #eee;
     color: #333333;
-    font-family: MuseoSans;
+   
     font-size: 30px;
     font-weight: 100;
     margin: 20px 0;
@@ -56,12 +24,12 @@
     text-transform: capitalize;
 }
 .numbers {
-    font-family: museosans;
+   
     font-size: 18px;
     font-weight: 100;
 }
 .email{
-    font-family: museosans;
+   
     font-size: 18px;
     font-weight: 100;
 }
@@ -74,7 +42,7 @@
     margin-right: 20px;
 }
 a.page-scroll {
-    font-family: MuseoSans;
+   
 }
 
 .contact_no ,.email_address{
@@ -109,7 +77,7 @@ a.page-scroll {
     text-shadow: 2px 2px 6px #434343;
 }
 .heading p {
-    font-family: MuseoSans-100;
+    
     font-size: 24px;
     margin: 0;
     padding: 0;
@@ -123,7 +91,7 @@ a.page-scroll {
 .btn-group-lg > .btn, .btn-lg {
     font-size: 18px;
     line-height: 1.33333;
-    font-family: MuseoSans;
+   
     font-weight: normal;
     padding: 15px 25px;
 }
@@ -366,7 +334,7 @@ a.page-scroll {
 .our_services h3 {
     color: #000000;
     float: left;
-    font-family: museosans;
+   
     font-size: 14pt;
     text-align: left;
     text-transform: capitalize;
@@ -375,7 +343,7 @@ a.page-scroll {
 .form_header h3 {
     color: #000000;
     float: left;
-    font-family: museosans;
+   
     font-size: 18px;
     margin: 0;
     text-align: inherit;
@@ -389,7 +357,7 @@ a.page-scroll {
     background: #f2f2f2 none repeat scroll 0 0;
     margin: 30px 0 0;
     padding: 10px;
-    font-family: museosans;
+   
     text-align: left;
     display: inline-block;
 }
@@ -397,7 +365,7 @@ a.page-scroll {
     color: #403f3f;
     font-size: 14pt;
     margin-bottom: 10px;
-    font-family: museosans;
+   
     text-transform: capitalize;
 }
 .box p {
@@ -454,7 +422,7 @@ label {
 }
 .heading_testimonial {
     border-bottom: 2px solid #ffffff;
-    font-family: museosans-100;
+    
     font-size: 44px;
     font-weight: 100;
     margin: 29px auto 28px;
@@ -534,14 +502,14 @@ Licensed under MIT
     font-size: 16px;
     font-weight: 300;
     margin: 5px 0 0;
-    font-family: museosans;
+   
 }
 .testimonials span.testimonials-post {
     color: #656565;
     font-size: 12px;
 }
 .testimonials p {
-    font-family: museosans;
+   
     font-size: 16px;
     font-weight: 100;
 }
@@ -559,7 +527,7 @@ Licensed under MIT
     margin-bottom: 35px;
 }
 .testimonials_heading h3 {
-    font-family: museosans-100;
+    
     font-size: 28px;
     font-weight: 100;
     text-align: left;
@@ -626,7 +594,7 @@ Licensed under MIT
 /*Footer Section*/
 
 .our_branches h2{
-     font-family: museosans-100;
+     
      font-size: 36px;
      margin-top: 30px;
      text-transform: capitalize;
@@ -634,7 +602,7 @@ Licensed under MIT
      padding-bottom: 10px;
 }
 .our_branches p{
-     font-family: museosans-100;
+     
      font-size: 20px;
 }
 .footer{
@@ -648,7 +616,7 @@ Licensed under MIT
     margin: 0 auto 50px;
 }
 .corporate_address h3{
-    font-family: museosans-100;
+    
     font-size: 36px;
     border-bottom: 1px solid #ffffff;
     font-weight: 100;
@@ -657,12 +625,12 @@ Licensed under MIT
 }
 .corporate_address p{
     font-size: 21px;
-    font-family: museosans-100;
+    
     padding: 0px 10px;
 }
 .cityName h4 {
     border-bottom: 1px solid #ffffff;
-    font-family: museosans-100;
+    
     font-size: 18px;
     margin-bottom: 11px;
     padding-bottom: 10px;
@@ -677,12 +645,12 @@ address {
     padding-right: 12px;
     text-align: left;
     word-wrap: break-word;
-    font-family: museosans-300;
+    
 }
 .footerBack{
     background:#283A4B ;
     padding: 20px;
-    font-family: museosans-100;
+    
 }
 .copyright.pull-left {
     margin-top: 18px;
@@ -697,13 +665,13 @@ address {
 }
 .contact_details h3 {
     border-bottom: 1px solid #333333;
-    font-family: museosans;
+   
     font-size: 24px;
     padding-bottom: 9px;
 }
 .contact_details p{
     font-size: 16px;
-    font-family: museosans;
+   
     margin: 0 0 15px;
 }
 .contact_details a{
@@ -721,7 +689,7 @@ address {
 }
 .form_section h3 {
     color: #ffffff;
-    font-family: museosans-100;
+    
     font-size: 40px;
     font-weight: 100;
     margin: 0 0 15px;
@@ -731,13 +699,12 @@ address {
     text-shadow: 2px 2px 3px #737373;
 }
 .form-control::-moz-placeholder {
-    color: #ffffff;
-    opacity: 1;
-    text-shadow: 2px 2px 3px #737373;
+    color: #cccccc;
+
 }
 .form_section > p {
     font-size: 18px;
-    font-family: museosans;
+   
      color: #ffffff;
      text-shadow: 2px 2px 3px #737373;
     
@@ -772,7 +739,7 @@ address {
 /*Responsive css*/
 @media(max-width:786px) {
     .btn-group-lg > .btn, .btn-lg {
-    font-family: MuseoSans;
+   
     font-size: 14px;
     font-weight: normal;
     line-height: 1.33333;
@@ -780,7 +747,7 @@ address {
     padding: 9px 18px;
 }
 .heading p {
-    font-family: MuseoSans-100;
+    
     font-size: 14px;
     margin: 0;
     padding: 0;

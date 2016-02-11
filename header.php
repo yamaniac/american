@@ -55,10 +55,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About Us</a>
+                        <a class="page-scroll" href="index.php">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="services.php">Service</a>
+                        <a class="page-scroll" href="services.php">Services</a>
                     </li>
                 
                       <li>
